@@ -588,7 +588,8 @@ footer {
 
 #skills {
     padding: 50px 15px;
-    text-align: center
+    text-align: center;
+    
 }
 
 #skills h2 {
@@ -612,6 +613,108 @@ footer {
     list-style: none;
     cursor: default;
     font-size: 1.2em
+}
+
+
+#award {
+    padding: 50px 15px 20px 15px;
+    border-bottom: 1px solid #dcd9d9;
+    border-top: 1px solid #dcd9d9;
+    text-align: center;
+}
+
+#award h2 {
+    color: #374054;
+    margin-bottom: 50px
+}
+
+.award-block {
+    background: #fff;
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    padding: 15px;
+    border: 1px solid #dcd9d9;
+    text-align: left
+}
+
+.award-block h3 {
+    font-weight: 500;
+    float: left;
+    margin: 0;
+    color: #374054
+}
+
+.award-block span {
+    color: #74808a;
+    float: right
+}
+
+.award-block h4 {
+    color: #74808a;
+    clear: both;
+    font-weight: 500;
+    margin: 0 0 15px 0
+}
+
+.award-block p,
+.award-block ul {
+    margin: 0;
+    color: #74808a;
+    font-size: 0.9em
+}
+
+.award-block ul {
+    padding: 0 0 0 15px
+}
+
+#certificate {
+    padding: 50px 15px 20px 15px;
+    border-bottom: 1px solid #dcd9d9;
+    text-align: center;
+}
+
+#certificate h2 {
+    color: #374054;
+    margin-bottom: 50px
+}
+
+.certificate-block {
+    background: #fff;
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    padding: 15px;
+    border: 1px solid #dcd9d9;
+    text-align: left
+}
+
+.certificate-block h3 {
+    font-weight: 500;
+    float: left;
+    margin: 0;
+    color: #374054
+}
+
+.certificate-block span {
+    color: #74808a;
+    float: right
+}
+
+.certificate-block h4 {
+    color: #74808a;
+    clear: both;
+    font-weight: 500;
+    margin: 0 0 15px 0
+}
+
+.certificate-block p,
+.certificate-block ul {
+    margin: 0;
+    color: #74808a;
+    font-size: 0.9em
+}
+
+.certificate-block ul {
+    padding: 0 0 0 15px
 }
 
 #contact {
@@ -840,6 +943,16 @@ footer {
 
     .education-block h3,
     .education-block span {
+        float: none
+    }
+
+    .award-block h3,
+    .award-block span {
+        float: none
+    }
+
+    .certificate-block h3,
+    .certificate-block span {
         float: none
     }
 
