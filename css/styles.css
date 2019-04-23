@@ -265,7 +265,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
+    background: url(../images/asd.jpg);
     background-size: cover;
     padding: 15px;
     overflow: hidden
@@ -309,7 +309,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(33, 125, 187, 0.8);
+    background: rgba(16, 46, 66, 0.466);
     z-index: 1
 }
 
