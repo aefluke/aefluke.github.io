@@ -87,13 +87,13 @@ header ul {
 }
 
 header li {
-    display: inline-block
+    display: inline-block;
 }
 
 header a {
     display: block;
     color: #3498db;
-    padding: 10px
+    padding: 10px;
 }
 
 header a:hover {
@@ -109,7 +109,7 @@ header a:focus {
 }
 
 header.active {
-    display: block
+    display: block;
 }
 
 header.sticky {
@@ -188,6 +188,31 @@ footer {
     color: #74808a
 }
 
+.intro-social {
+    text-align: center;
+}
+
+.intro-social ul {
+    margin: 5px 0 0 0;
+    padding: 0
+}
+
+.intro-social li {
+    display: inline-block;
+    font-size: 3em;
+    list-style: none
+}
+
+.intro-social a {
+    display: block;
+    color: #fff;
+    padding: 10px
+}
+
+.intro-social a:hover {
+    color: #3498db
+}
+
 .social {
     text-align: right
 }
@@ -260,18 +285,20 @@ footer {
     background: #f2f2f5
 }
 
-#lead {
+#lead {    
     position: relative;
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
     background: url(../images/asd.jpg);
+    background-position: center;
     background-size: cover;
     padding: 15px;
     overflow: hidden
 }
 
 #lead-content {
+    margin-top: 25px;
     position: absolute;
     z-index: 10;
     top: 50%;
@@ -309,7 +336,6 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(16, 46, 66, 0.466);
     z-index: 1
 }
 
